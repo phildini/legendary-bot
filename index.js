@@ -80,15 +80,15 @@ function tweetLegend() {
     });
 }
 
-// Tweet every 30 minutes
-setInterval(function () {
-    try {
-        tweetLegend();
-    }
-    catch (e) {
-        console.log(e);
-    }
-}, 1000 * 60 * 30);
+// // Tweet every 30 minutes
+// setInterval(function () {
+//     try {
+//         tweetLegend();
+//     }
+//     catch (e) {
+//         console.log(e);
+//     }
+// }, 1000 * 60 * 30);
 
 // Tweet once on initialization
 tweetLegend();
